@@ -1,0 +1,36 @@
+.navbar{
+    background-color: #1C2B35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: Lato;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.085px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    margin-left: 112px;
+}
+
+.menu{
+    margin-right: 112px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-left: 84px;
+}
+
+.menu a:hover{
+    color: orange;
+}
